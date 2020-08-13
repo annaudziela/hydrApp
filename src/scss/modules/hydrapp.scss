@@ -1,0 +1,48 @@
+.hydrapp {
+    width: 375px;
+    font-family: 'Nunito', sans-serif;
+  
+    &__title {
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-family: 'Nunito', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 55px;
+      line-height: 75px;
+    }
+    &__subtitle {
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  
+    &__counter {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 48px;
+      width: 280px;
+      height: 280px;
+      &--image {
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+        z-index: 0;
+      }
+      &--text {
+        font-size: 100px;
+        position: absolute;
+        top: 114px;
+        margin: 0;
+        padding: 0;
+        line-height: 131px;
+      }
+    }
+  }
