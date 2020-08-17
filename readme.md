@@ -1,18 +1,15 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](/src/assets/img/hydracover.png)
 
-# WTF Webpack Starter Kit 
+# hydrApp
 
-Simple toolkit for your static websites development.
+This is a simple app which helps you to stay hydrated.
 
 ## How to use it?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Click on `add glass` button to add one glass of water. App starts to count the amount of water you drank. 
+When you want to reduce the number of glasses drunk, click on the command:  `ups...one less`.  
 
-## Available scripts
+## What's more?
 
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+The app starts counting glasses all over again every day and saves a history in local storage. You can check the history of the amount of water consumed by using the hotkey `alt+cmd + i` (**Applications tab**).
 

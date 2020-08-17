@@ -3,22 +3,15 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    position: relative;
+    flex-wrap: wrap;
+    background-image: url(/src/assets/img/glass.svg);
     margin: 0 auto;
     margin-bottom: 48px;
     width: 280px;
     height: 280px;
-    &__image {
-      width: 280px;
-      height: 280px;
-      margin: 0 auto;
-      z-index: 0;
-    }
     &__text {
       font-size: 100px;
-      position: absolute;
-      top: 114px;
-      margin: 0;
+      top: 200px;
       padding: 0;
       line-height: 131px;
     }
