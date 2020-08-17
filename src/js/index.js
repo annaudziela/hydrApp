@@ -1,7 +1,7 @@
 import '../scss/main.scss';
 
 
-const counterField = document.querySelector('.hydrapp__counter--js');
+const counterField = document.querySelector('.counter--js');
 const addButton = document.querySelector('.button__add--js');
 const lessButton = document.querySelector('.button__less--js');
 const key = new Date().toLocaleString().slice(0, 10);
