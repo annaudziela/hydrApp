@@ -5,17 +5,16 @@
     justify-content: center;
     flex-wrap: wrap;
     background-image: url("../assets/img/glass.svg");
+    background-size: contain;
     margin: 0 auto;
     margin-bottom: 48px;
     width: 280px;
     height: 280px;
     &__text {
       font-size: 100px;
-      top: 200px;
       padding: 0;
       line-height: 131px;
-      text-align: center;
-      align-items: center center;
+    
     }
   }
 
