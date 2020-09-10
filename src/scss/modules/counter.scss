@@ -1,12 +1,11 @@
 .counter {
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     background-image: url("../assets/img/glass.svg");
     background-size: contain;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 48px;
     width: 280px;
     height: 280px;
@@ -14,7 +13,6 @@
       font-size: 100px;
       padding: 0;
       line-height: 131px;
-    
     }
   }
 
