@@ -20,7 +20,8 @@ if (localStorageValue) {
 counterField.innerHTML = currentValue;
 
 addButton.addEventListener('click', () => {
-    currentValue++;
+    if (currentValue < 99) {
+    currentValue++; }
     counterField.innerHTML = currentValue;
     localStorage.setItem(key, currentValue);
 });
