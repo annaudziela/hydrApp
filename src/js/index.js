@@ -35,7 +35,11 @@ lessButton.addEventListener('click', () => {
 
 });
 
-
+addButton.addEventListener('click', () => {
+if (currentValue > 98) {
+    alert("Seems you are well hydrated");
+}
+});
 
 
 
@@ -44,5 +48,3 @@ lessButton.addEventListener('click', () => {
 import {registerSW} from './pwa.js';
 registerSW();
 
-
-console.log('HELLO 🚀');
