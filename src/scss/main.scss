@@ -4,7 +4,6 @@
 @import "modules/counter.scss";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap");
 
-
 html {
   box-sizing: border-box;
 }
@@ -17,7 +16,7 @@ html {
 
 body {
   position: relative;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   background: #2d4d79;
   color: #fff;
   display: flex;
@@ -27,7 +26,3 @@ body {
   min-height: 100vh;
   text-align: center;
 }
-
-
-
-
